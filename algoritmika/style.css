@@ -1,0 +1,208 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#Algoritmics {
+    position: absolute;
+    width: 150px;
+    top: 10px;
+    left: 20px;
+}
+
+#HtmlCssJs {
+    position: absolute;
+    width: 520px;
+    top: 50px;
+    left: 450px;
+}
+
+#Python {
+    position: absolute;
+    width: 400px;
+    top: 50px;
+    left: 1600px;
+    transform: rotate(-10deg);
+}
+
+#Rust {
+    position: absolute;
+    width: 390px;
+    top: 860px;
+    left: -65px;
+    transform: rotate(45deg);
+}
+
+#Cpp {
+    position: absolute;
+    width: 250px;
+    top: 800px;
+    right: 815px;
+    transform: rotate(-3.4deg);
+
+}
+
+#Algorithmika {
+    position: absolute;
+    left: 800px;
+    top: 460px;
+}
+
+#GitHub {
+    position: absolute;
+    width: 100px;
+    top: 70px;
+    right: 190px;
+    transform: rotate(30deg);
+}
+
+#Check_mark {
+    position: absolute;
+    width: 50px;
+    top: 400px;
+    left: 800px;
+    transform: rotate(-34deg);
+}
+
+#Check_mark1 {
+    position: absolute;
+    width: 70px;
+    top: 700px;
+    left: 1193px;
+    transform: rotate(190deg);
+}
+
+#Check_mark2 {
+    position: absolute;
+    width: 70px;
+    top: 400px;
+    right: 500px;
+    transform: rotate(44deg);
+}
+
+
+
+.LFS {
+    position: relative;
+    font-family: "Cera Cy", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 33px;
+    margin-top: 328px;
+    margin-left: 30px;
+}
+
+.LOGIN {
+    position: relative;
+    font-family: "GENISO", Georgia, Serif;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: -3px;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+
+}
+
+.PASSWORD {
+    position: relative;
+    font-family: "GENISO", Georgia, Serif;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: -3px;
+    margin-left: 30px;
+    letter-spacing: 0.5px;
+}
+
+.pictures {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgb(250, 250, 250) ,rgb(164, 56, 253), rgb(61, 74, 250));
+}
+
+.input_text {
+    position: relative;
+    margin-left: 30px;
+    color: rgb(15, 28, 44);
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    display: block;
+    width: 450px;
+    padding: 8px;
+
+    border: 1px solid rgb(216, 219, 226);
+    height: 28px;
+    border-radius: 12px;
+    font-size: 18px;
+    outline: none;
+}
+
+.input_password {
+    position: relative;
+    margin-left: 30px;
+    padding: 8px;
+    width: 450px;
+    color: rgb(15, 28, 44);
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    display: block;
+
+    border: 1px solid rgb(216, 219, 226);
+    height: 28px;
+    border-radius: 12px;
+    font-size: 18px;
+    outline: none;
+}
+
+.button {
+    position: relative;
+    line-height: 24px;
+    font-size: 22px;
+    height: 48px;
+
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    background-color: rgb(131, 58, 224);
+    cursor: pointer;
+    color: white;
+
+    border-width: initial;
+    border-style: none;
+    border-radius: 12px;
+    padding: 0px 207px;
+}
+
+.link a {
+    font-family: "Cera CY", Helvetica, Arial, sans-serif;
+    color: rgb(131, 58, 224);
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    margin-left: 177px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.link a:after {
+    background-color: #000000;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.link a:hover:after,
+.link a:focus:after {
+    width: 100%;
+}
